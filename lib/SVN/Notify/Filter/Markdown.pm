@@ -5,7 +5,7 @@ package SVN::Notify::Filter::Markdown;
 use strict;
 use Text::Markdown ();
 use SVN::Notify ();
-$SVN::Notify::Filter::Markdown::VERSION = '0.01';
+$SVN::Notify::Filter::Markdown::VERSION = '0.02';
 
 sub log_message {
     my ($notify, $lines) = @_;
