@@ -6,7 +6,8 @@ Module::Build->new(
     license            => 'perl',
     create_makefile_pl => 'passthrough',
     configure_requires => { 'Module::Build' => '0.2701' },
-    build_requires     => {
+    build_requires     => { 'Module::Build' => '0.2701' },
+    requires           => {
         'SVN::Notify'    => '2.70',
         'Text::Markdown' => 0,
     },
