@@ -1,6 +1,6 @@
 ---
 name: SVN-Notify-Filter-Markdown
-version: 2.71
+version: 0.01
 author:
   - 'David E. Wheeler <david@kineticode.com>'
 abstract: Convert SVN::Notify log messages from Markdown to HTML
@@ -15,7 +15,7 @@ build_requires:
 provides:
   SVN::Notify::Filter::Markdown:
     file: lib/SVN/Notify/Filter/Markdown.pm
-    version: 2.71
+    version: 0.01
 generated_by: Module::Build version 0.280801
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

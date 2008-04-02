@@ -5,7 +5,7 @@ package SVN::Notify::Filter::Markdown;
 use strict;
 use Text::Markdown ();
 use SVN::Notify ();
-$SVN::Notify::Filter::Markdown::VERSION = '2.71';
+$SVN::Notify::Filter::Markdown::VERSION = '0.01';
 
 sub log_message {
     my ($notify, $lines) = @_;
@@ -35,7 +35,8 @@ SVN::Notify::Filter::Markdown - Convert SVN::Notify log messages from Markdown t
 
 Use F<svnnotify> in F<post-commit>:
 
-  svnnotify --p "$1" --r "$2" --handler HTML --filter Markdown
+  svnnotify --p "$1" --r "$2" --to you@example.com --handler HTML \
+  --filter Markdown
 
 Use the class in a custom script:
 
@@ -59,11 +60,13 @@ messages in Markdown format and like to use
 L<SVN::Notify::HTML|SVN::Notify::HTML> or
 L<SVN::Notify::HTML::ColorDiff|SVN::Notify::HTML::ColorDiff> to format your
 commit notifications, you can use this filter to convert the Markdown
-formatting in the log message to HTML.
+formatting in the log message to HTML. Just pass C<--filter Markdown> to your
+call to C<svnnotify> in F<post-commit> and you're good to go.
 
 If you don't know what any of this means, read the L<SVN::Notify|SVN::Notify>
 documentation. It talks about using SVN::Notify to send nicely formatted
-emails for every Subversion commit.
+emails for every Subversion commit. This module just makes them even more
+nicely formatted.
 
 =head1 See Also
 

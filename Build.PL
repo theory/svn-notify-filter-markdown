@@ -1,4 +1,5 @@
 use Module::Build;
+use strict;
 
 Module::Build->new(
     module_name        => 'SVN::Notify::Filter::Markdown',
