@@ -6,4 +6,5 @@ MANIFEST			This list of files
 META.yml
 README
 t/base.t
+t/pod-spelling.t
 t/pod.t
