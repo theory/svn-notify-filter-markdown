@@ -13,5 +13,6 @@ Module::Build->new(
     requires           => {
         'SVN::Notify'    => '2.70',
         'Text::Markdown' => 0,
+        'HTML::Entities' => 0,
     },
 )->create_build_script;
