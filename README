@@ -1,4 +1,4 @@
-SVN/Notify/Filter/Markdown version 0.02
+SVN/Notify/Filter/Markdown version 0.03
 =======================================
 
 This module filters SVN::Notify log message output from Markdown format into
