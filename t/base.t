@@ -17,6 +17,7 @@ isa_ok my $n = SVN::Notify->new(
     revision   => 42,
     handler    => 'HTML',
     filters    => [ 'Markdown' ],
+    smtp       => 'localhost',
 ), 'SVN::Notify::HTML', 'Create HTML notifier';
 
 ok $n->message( [ @log ] ), 'Add our custom log message';
@@ -30,6 +31,7 @@ isa_ok $n = SVN::Notify->new(
     repos_path => '/foo/bar',
     revision   => 42,
     filters    => [ 'Markdown' ],
+    smtp       => 'localhost',
 ), 'SVN::Notify', 'Create non-HTML notifier';
 
 ok $n->message( [ @log ] ), 'Add our custom log message';

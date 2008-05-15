@@ -6,6 +6,8 @@ Revision history for Perl extension SVN::Notify::Filter::Markdown.
       - Added spelling test. No spelling errors found.
       - Now requiring HTML::Entities, since SVN::Notify only recommends it,
         but this module only does HTML.
+      - Fixed a test failure when for systems without sendmail. Now
+        SVN::Notify won't even look.        
 
 0.01  2008-04-02T05:11:13
       - Initial public release.
