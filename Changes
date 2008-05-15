@@ -1,6 +1,8 @@
 Revision history for Perl extension SVN::Notify::Filter::Markdown.
 
 0.03
+      - Removed the spelling test from the distribution, since it can
+        fail on systems without a spell program or using a different locale.
 
 0.02  2008-05-15T03:24:13
       - Updated copyright.

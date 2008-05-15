@@ -6,3 +6,4 @@
 ^MANIFEST\.SKIP$
 ^SVN-Notify-Filter-Markdown
 \.svn
+pod-spelling.t$
