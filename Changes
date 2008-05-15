@@ -1,6 +1,6 @@
 Revision history for Perl extension SVN::Notify::Filter::Markdown.
 
-0.02  
+0.02  2008-05-15T03:24:13
       - Updated copyright.
       - Added Test::More to the "build_requires" parameter in Build.PL.
       - Added spelling test. No spelling errors found.
