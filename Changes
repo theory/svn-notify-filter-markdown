@@ -1,6 +1,7 @@
 Revision history for Perl extension SVN::Notify::Filter::Markdown.
 
 0.04
+      - Added Test::Pod to the `recommends` parameter in `Build.PL`.
 
 0.03  2008-05-18T03:41:38
       - Removed the spelling test from the distribution, since it can

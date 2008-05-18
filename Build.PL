@@ -15,4 +15,7 @@ Module::Build->new(
         'Text::Markdown' => 0,
         'HTML::Entities' => 0,
     },
+    recommends         => {
+        'Test::Pod'      => 1.20,
+    },
 )->create_build_script;
