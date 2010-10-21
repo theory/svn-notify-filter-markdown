@@ -1,26 +1,28 @@
 ---
-name: SVN-Notify-Filter-Markdown
-version: 0.03
+abstract: 'Convert SVN::Notify log messages from Markdown to HTML'
 author:
   - 'David E. Wheeler <david@kineticode.com>'
-abstract: Convert SVN::Notify log messages from Markdown to HTML
-license: perl
-resources:
-  license: http://dev.perl.org/licenses/
-configure_requires:
-  Module::Build: 0.2701
-requires:
-  HTML::Entities: 0
-  SVN::Notify: 2.70
-  Text::Markdown: 0
 build_requires:
   Module::Build: 0.2701
   Test::More: 0.17
+configure_requires:
+  Module::Build: 0.2701
+generated_by: 'Module::Build version 0.3603'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: SVN-Notify-Filter-Markdown
 provides:
   SVN::Notify::Filter::Markdown:
     file: lib/SVN/Notify/Filter/Markdown.pm
-    version: 0.03
-generated_by: Module::Build version 0.280801
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+    version: 0.04
+recommends:
+  Test::Pod: 1.2
+requires:
+  HTML::Entities: 0
+  SVN::Notify: 2.70
+  Text::Markdown: v1.0.4
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.04

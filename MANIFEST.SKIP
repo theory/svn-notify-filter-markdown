@@ -7,3 +7,4 @@
 ^SVN-Notify-Filter-Markdown
 \.svn
 pod-spelling.t$
+^MYMETA.yml$
