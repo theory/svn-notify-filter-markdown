@@ -4,6 +4,7 @@ Revision history for Perl extension SVN::Notify::Filter::Markdown.
       - Added Test::Pod to the `recommends` parameter in `Build.PL`.
       - Now requring Text::Markdown 1.04 or higher. Always depended on
         features added then, just didn't realize it. Thanks cpan-testers!
+      - Switched to "traditional" `Makefile.PL` compatibility.
 
 0.03  2008-05-18T03:41:38
       - Removed the spelling test from the distribution, since it can

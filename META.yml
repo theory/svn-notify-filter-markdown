@@ -22,7 +22,7 @@ recommends:
 requires:
   HTML::Entities: 0
   SVN::Notify: 2.70
-  Text::Markdown: v1.0.4
+  Text::Markdown: 1.000004
 resources:
   license: http://dev.perl.org/licenses/
 version: 0.04
