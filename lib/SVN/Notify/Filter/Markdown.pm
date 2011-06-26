@@ -14,17 +14,6 @@ sub log_message {
 
 1;
 
-=begin comment
-
-Fake-out Module::Build. Delete if it ever changes to support =head1 headers
-other than all uppercase.
-
-=head1 NAME
-
-SVN::Notify::Filter::Markdown - Convert SVN::Notify log messages from Markdown to HTML
-
-=end comment
-
 =head1 Name
 
 SVN::Notify::Filter::Markdown - Convert SVN::Notify log messages from Markdown to HTML
@@ -90,15 +79,6 @@ sending mail to
 L<bug-SVN-Notify-Filter-Markdown@rt.cpan.org|mailto:bug-SVN-Notify-Filter-Markdown@rt.cpan.org>.
 
 =head1 Author
-
-=begin comment
-
-Fake-out Module::Build. Delete if it ever changes to support =head1 headers
-other than all uppercase.
-
-=head1 AUTHOR
-
-=end comment
 
 David E. Wheeler <david@kineticode.com>
 
