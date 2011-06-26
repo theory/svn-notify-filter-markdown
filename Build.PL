@@ -16,6 +16,6 @@ Module::Build->new(
         'HTML::Entities' => 0,
     },
     recommends         => {
-        'Test::Pod'      => 1.20,
+        'Test::Pod'      => '1.41',
     },
 )->create_build_script;
