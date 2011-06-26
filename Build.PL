@@ -18,4 +18,11 @@ Module::Build->new(
     recommends         => {
         'Test::Pod'      => '1.41',
     },
+    meta_merge => {
+        resources => {
+            homepage   => 'http://search.cpan.org/dist/SVN-Notify-Filter-Markdown/',
+            bugtracker => 'http://github.com/theory/svn-notify-filter-markdown/issues/',
+            repository => 'http://github.com/theory/svn-notify-filter-markdown/',
+        }
+    },
 )->create_build_script;

@@ -82,12 +82,14 @@ nicely formatted.
 
 =head1 Support
 
-This module is stored in an open repository at the following address:
+This module is stored in an open L<GitHub
+repository|http://github.com/theory/svn-notify-filter-markdown/>. Feel free to
+fork and contribute!
 
-L<https://svn.kineticode.com/SVN-Notify-Filter-Markdown/trunk/>
-
-Patches against SVN::Notify::Filter::Markdown are welcome. Please send bug
-reports to <bug-svn-notify-filter-markdown@rt.cpan.org>.
+Please file bug reports via L<GitHub
+Issues|http://github.com/theory/svn-notify-filter-markdown/issues/> or by
+sending mail to
+L<bug-SVN-Notify-Filter-Markdown@rt.cpan.org|mailto:bug-SVN-Notify-Filter-Markdown@rt.cpan.org>.
 
 =head1 Author
 
