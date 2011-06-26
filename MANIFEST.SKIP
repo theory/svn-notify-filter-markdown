@@ -5,6 +5,7 @@
 \.bak$
 ^MANIFEST\.SKIP$
 ^SVN-Notify-Filter-Markdown
-\.svn
+\.git
 pod-spelling.t$
 ^MYMETA.yml$
+^MYMETA\.json$
