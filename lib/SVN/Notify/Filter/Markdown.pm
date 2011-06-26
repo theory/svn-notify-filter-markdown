@@ -1,7 +1,5 @@
 package SVN::Notify::Filter::Markdown;
 
-# $Id$
-
 use strict;
 use Text::Markdown ();
 use SVN::Notify ();
