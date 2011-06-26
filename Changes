@@ -1,6 +1,6 @@
 Revision history for Perl extension SVN::Notify::Filter::Markdown.
 
-0.05
+0.05  2011-06-26T05:28:51
       - Moved the repository to
         [GitHub](https://github.com/theory/svn-notify-filter-markdown/). Yes,
         I'm aware of the irony.
