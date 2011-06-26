@@ -1,4 +1,4 @@
-SVN/Notify/Filter/Markdown version 0.05
+SVN/Notify/Filter/Markdown version 0.06
 =======================================
 
 This module filters [SVN::Notify](http://search.cpan.org/dist/SVN-Notify) log
